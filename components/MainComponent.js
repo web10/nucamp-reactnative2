@@ -4,7 +4,6 @@ import Home from './HomeComponent';
 import Contact from './ContactComponent';
 import About from './AboutComponent';
 import CampsiteInfo from './CampsiteInfoComponent';
-// import { CAMPSITES } from '../shared/campsites';
 import { View , Platform } from 'react-native';
 import { createStackNavigator } from 'react-navigation-stack';
 import { createAppContainer } from 'react-navigation';
@@ -91,7 +90,7 @@ const MainNavigator = createDrawerNavigator(
         Home: { screen: HomeNavigator },
         Directory: { screen: DirectoryNavigator },
         Contact: { screen: ContactNavigator },
-        About: { screeen: AboutNavigator }
+        About: { screen: AboutNavigator }
     },
     {
         drawerBackgroundColor: '#CEC8FF'
